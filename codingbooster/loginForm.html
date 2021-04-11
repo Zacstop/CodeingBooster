@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width", initial-scale="1">
+		<title>코딩부스터</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/codingBooster.css">
+	</head>
+	<body>
+		<style type="text/css">
+
+		</style>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar=header">
+					<button type="button" class="navbar-toggle colapsed" data-toggle="collapse" 
+							data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html"> 코딩 부스터 <span class="at_bar"></span></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html"> 소개 <span class="sr-only"></span></a></li>
+						<li><a href="instructor.html"> 강사진 </a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-haspopup="true" aria-expanded="false">강의<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="lecture.html?lectureName=C"> C언어 </a></li>
+								<li><a href="lecture.html?lectureName=Java"> Java </a></li>
+								<li><a href="lecture.html?lectureName=Android"> 안드로이드 </a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="내용을 입력하세요.">
+						</div>
+						<button type="submit" class="btn btn-default"> 검색 </button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+							 	aria-haspopup="true" aria-expanded="false"> 접속하기 <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="loginForm.html"> 로그인 </a></li>
+								<li><a href="registerForm.html"> 회원가입 </a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+
+<div class="container">
+<br>  <p class="text-center">More bootstrap 4 components on <a href="http://bootstrap-ecommerce.com/"> Bootstrap-ecommerce.com</a></p>
+<hr>
+
+<div class="row">
+	<aside class="col-sm-4">
+<p>Login form style 1</p>
+<div class="card">
+<article class="card-body">
+<a href="" class="float-right btn btn-outline-primary">Sign up</a>
+<h4 class="card-title mb-4 mt-1">Sign in</h4>
+	 <form>
+    <div class="form-group">
+    	<label>Your email</label>
+        <input name="" class="form-control" placeholder="Email" type="email">
+    </div> <!-- form-group// -->
+    <div class="form-group">
+    	<a class="float-right" href="#">Forgot?</a>
+    	<label>Your password</label>
+        <input class="form-control" placeholder="******" type="password">
+    </div> <!-- form-group// --> 
+    <div class="form-group"> 
+    <div class="checkbox">
+      <label> <input type="checkbox"> Save password </label>
+    </div> <!-- checkbox .// -->
+    </div> <!-- form-group// -->  
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block"> Login  </button>
+    </div> <!-- form-group// -->                                                           
+</form>
+</article>
+</div> <!-- card.// -->
+
+	</aside> <!-- col.// -->
+	<aside class="col-sm-4">
+<p>Login form style 2</p>
+
+<div class="card">
+<article class="card-body">
+	<a href="" class="float-right btn btn-outline-primary">Sign up</a>
+	<h4 class="card-title mb-4 mt-1">Sign in</h4>
+	<p>
+		<a href="" class="btn btn-block btn-outline-info"> <i class="fab fa-twitter"></i>   Login via Twitter</a>
+		<a href="" class="btn btn-block btn-outline-primary"> <i class="fab fa-facebook-f"></i>   Login via facebook</a>
+	</p>
+	<hr>
+	<form>
+    <div class="form-group">
+        <input name="" class="form-control" placeholder="Email or login" type="email">
+    </div> <!-- form-group// -->
+    <div class="form-group">
+        <input class="form-control" placeholder="******" type="password">
+    </div> <!-- form-group// -->                                      
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block"> Login  </button>
+            </div> <!-- form-group// -->
+        </div>
+        <div class="col-md-6 text-right">
+            <a class="small" href="#">Forgot password?</a>
+        </div>                                            
+    </div> <!-- .row// -->                                                                  
+</form>
+</article>
+</div> <!-- card.// -->
+
+	</aside> <!-- col.// -->
+	<aside class="col-sm-4">
+<p>Login form style 3</p>
+
+<div class="card">
+<article class="card-body">
+	<h4 class="card-title text-center mb-4 mt-1">Sign in</h4>
+	<hr>
+	<p class="text-success text-center">Some message goes here</p>
+	<form>
+	<div class="form-group">
+	<div class="input-group">
+		<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+		 </div>
+		<input name="" class="form-control" placeholder="Email or login" type="email">
+	</div> <!-- input-group.// -->
+	</div> <!-- form-group// -->
+	<div class="form-group">
+	<div class="input-group">
+		<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+		 </div>
+	    <input class="form-control" placeholder="******" type="password">
+	</div> <!-- input-group.// -->
+	</div> <!-- form-group// -->
+	<div class="form-group">
+	<button type="submit" class="btn btn-primary btn-block"> Login  </button>
+	</div> <!-- form-group// -->
+	<p class="text-center"><a href="#" class="btn">Forgot password?</a></p>
+	</form>
+</article>
+</div> <!-- card.// -->
+
+	</aside> <!-- col.// -->
+</div> <!-- row.// -->
+
+</div> 
+<!--container end.//-->
+
+<br><br><br>
+<article class="bg-secondary mb-3">  
+<div class="card-body text-center">
+    <h4 class="text-white">HTML UI KIT <br> Ready to use Bootstrap 4 components and templates </h4>
+<p class="h5 text-white"> for Ecommerce, marketplace, booking websites 
+and product landing pages</p>   <br>
+<p><a class="btn btn-warning" target="_blank" href="http://bootstrap-ecommerce.com/"> Bootstrap-ecommerce.com  
+ <i class="fa fa-window-restore "></i></a></p>
+</div>
+<br><br><br>
+</article>
+		<footer style="background-color: #000000; color: #ffffff">
+			<div class="container">
+				<br>
+				<div class="row">
+					<div class="col-sm-2" style="text-align: center;"><h5>Copyright &copy; 2019</h5><h5>강준형(kangjunhyeong)</h5></div>
+					<div class="col-sm-4"><h4>대표자 소개</h4><p>나는 나다.</p></div>
+					<div class="col-sm-2"><h4 style="text-align: center;">내비게이션</h4>
+						<div class="list-group">
+							<a href="index.html" class="list-group-item">소개</a>
+							<a href="instructor.html" class="list-group-item">강사진</a>
+							<a href="lecture.html" class="list-group-item">강의</a>
+						</div>
+					</div>
+					<div class="col-sm-2"><h4 style="text-align: center;">SNS</h4>
+						<div class="list-group">
+							<a href="https://www.facebook.com/" class="list-group-item">Facebook</a>
+							<a href="https://www.youtube.com/" class="list-group-item">Youtube</a>
+							<a href="https://tv.naver.com/" class="list-group-item">Naver TV</a>
+						</div>
+					</div>
+					<div class="col-sm-2"><h4 style="text-align: center;"><span class="glyphicon glyphicon-ok"></span>&nbsp;by Odd</h4></div>
+				</div>
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
